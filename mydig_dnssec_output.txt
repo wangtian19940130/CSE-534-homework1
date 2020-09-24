@@ -1,0 +1,57 @@
+python mydig_dnssec.py google.com
+
+DNSSEC not supported
+
+QUESTION SECTION:
+google.com. A
+
+ANSWER SECTION:
+google.com. 300 IN A 216.58.200.238
+
+Query time: 3007 msec
+WHEN: Tue Sep 22 16:31:25 2020
+MSG SIZE rcvd: 144
+
+------------------------------------------------------------------------------------------
+python mydig_dnssec.py dnssec-failed.org
+
+DNSSEC verification failed
+
+QUESTION SECTION:
+dnssec-failed.org. A
+
+ANSWER SECTION:
+dnssec-failed.org. 7200 IN A 69.252.80.75
+
+Query time: 7451 msec
+WHEN: Tue Sep 22 16:30:45 2020
+MSG SIZE rcvd: 811
+
+------------------------------------------------------------------------------------------
+python mydig_dnssec.py verisigninc.com
+
+DNSSEC configured and verification succeeded
+
+QUESTION SECTION:
+verisigninc.com. A
+
+ANSWER SECTION:
+verisigninc.com. 3600 IN A 72.13.63.55
+
+Query time: 4644 msec
+WHEN: Tue Sep 22 16:30:07 2020
+MSG SIZE rcvd: 1257
+
+------------------------------------------------------------------------------------------
+python mydig_dnssec.py verisign.com
+DNSSEC configured and verification succeeded
+
+QUESTION SECTION: 
+verisign.com. A  
+
+ANSWER SECTION:
+verisign.com. 60 IN A 72.13.63.55
+
+Query time: 2937 msec
+WHEN: Wed Sep 22 22:07:30 2020
+MSG SIZE rcvd: 1226

@@ -1,0 +1,126 @@
+python mydig.py cnn.com A
+
+QUESTION SECTION:
+cnn.com. IN  A
+
+ANSWER SECTION:
+cnn.com. 60 IN A 151.101.193.67
+cnn.com. 60 IN A 151.101.129.67
+cnn.com. 60 IN A 151.101.65.67
+cnn.com. 60 IN A 151.101.1.67
+
+Query time: 1367 msec
+WHEN: Mon Sep 21 09:34:47 2020
+MSG SIZE rcvd: 225
+
+------------------------------------------------------------------------------------------
+python mydig.py cnn.com NS
+
+QUESTION SECTION:
+cnn.com. IN  NS
+
+ANSWER SECTION:
+cnn.com. 3600 IN NS ns-1086.awsdns-07.org.
+cnn.com. 3600 IN NS ns-1630.awsdns-11.co.uk.
+cnn.com. 3600 IN NS ns-47.awsdns-05.com.
+cnn.com. 3600 IN NS ns-576.awsdns-08.net.
+
+Query time: 1407 msec
+WHEN: Mon Sep 21 09:40:00 2020
+MSG SIZE rcvd: 161
+
+------------------------------------------------------------------------------------------
+python mydig.py cnn.com MX
+
+QUESTION SECTION:
+cnn.com. IN  MX
+
+ANSWER SECTION:
+cnn.com. 300 IN MX 10 mxa-00241e02.gslb.pphosted.com.
+cnn.com. 300 IN MX 10 mxb-00241e02.gslb.pphosted.com.
+
+Query time: 1484 msec
+WHEN: Mon Sep 21 09:45:43 2020
+MSG SIZE rcvd: 233
+
+------------------------------------------------------------------------------------------
+python mydig.py stonybrook.edu A
+
+QUESTION SECTION:
+stonybrook.edu. IN  A
+
+ANSWER SECTION:
+stonybrook.edu. 900 IN A 129.49.2.176
+
+Query time: 1501 msec
+WHEN: Mon Sep 21 09:48:37 2020
+MSG SIZE rcvd: 48
+
+------------------------------------------------------------------------------------------
+python mydig.py stonybrook.edu NS
+
+QUESTION SECTION:
+stonybrook.edu. IN  NS
+
+ANSWER SECTION:
+stonybrook.edu. 900 IN NS whoisthere.stonybrook.edu.
+stonybrook.edu. 900 IN NS nocnoc.stonybrook.edu.
+stonybrook.edu. 900 IN NS mewho.stonybrook.edu.
+
+Query time: 1331 msec
+WHEN: Mon Sep 21 09:49:00 2020
+MSG SIZE rcvd: 98
+
+------------------------------------------------------------------------------------------
+python mydig.py stonybrook.edu MX
+
+QUESTION SECTION:
+stonybrook.edu. IN  MX
+
+ANSWER SECTION:
+stonybrook.edu. 900 IN MX 1 sbmta1.cc.stonybrook.edu.
+stonybrook.edu. 900 IN MX 20 syr-t5220-01.syracuse.stonybrook.edu.
+stonybrook.edu. 900 IN MX 1 sbmta2.cc.stonybrook.edu.
+
+Query time: 1453 msec
+WHEN: Mon Sep 21 09:49:28 2020
+MSG SIZE rcvd: 119
+
+------------------------------------------------------------------------------------------
+python mydig.py google.co.jp A
+
+QUESTION SECTION:
+google.co.jp. IN  A
+
+ANSWER SECTION:
+google.co.jp. 169 IN A 208.31.254.33
+
+Query time: 340 msec
+WHEN: Mon Sep 21 13:42:22 2020
+MSG SIZE rcvd: 46
+
+------------------------------------------------------------------------------------------
+python mydig.py google.co.jp NS
+
+QUESTION SECTION:
+google.co.jp. IN  NS
+
+ANSWER SECTION:
+google.co.jp. 150 IN A 157.240.7.34
+
+Query time: 229 msec
+WHEN: Mon Sep 21 13:42:27 2020
+MSG SIZE rcvd: 46
+
+------------------------------------------------------------------------------------------
+python mydig.py google.co.jp MX
+
+QUESTION SECTION:
+google.co.jp. IN  MX
+
+ANSWER SECTION:
+google.co.jp. 75 IN A 108.160.169.185
+
+Query time: 371 msec
+WHEN: Mon Sep 21 13:42:31 2020
+MSG SIZE rcvd: 46
